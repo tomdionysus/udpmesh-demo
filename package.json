@@ -1,0 +1,27 @@
+{
+  "name": "udpmesh-demo",
+  "version": "1.0.0",
+  "description": "A Demo of the npm udpmesh package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomdionysus/udpmesh-demo.git"
+  },
+  "keywords": [
+    "mesh",
+    "udp"
+  ],
+  "author": "Tom Cully",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomdionysus/udpmesh-demo/issues"
+  },
+  "homepage": "https://github.com/tomdionysus/udpmesh-demo#readme",
+  "dependencies": {
+    "udpmesh": "file:../udpmesh",
+    "request": "^2.88.2"
+  }
+}
