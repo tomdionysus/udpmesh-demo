@@ -22,9 +22,9 @@ function main() {
 	})
 
 	var handle = ()=>{
-		logger.debug("SIGINT - Stopping")
+		logger.debug("SIGTERM/SIGINT Received - Stopping")
 		svr.stop()
-		logger.info("SIGINT - Stopped")
+		logger.info("Stopped")
 		process.exit()
 	}
 
